@@ -1,0 +1,39 @@
+body{
+    background-color:rgb(199, 213, 226);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 150px;
+}
+.title{
+    text-align: center;
+}
+.image{
+    margin-top:20px;
+    margin-bottom: 50px;
+    border: solid grey 3px;
+}
+button{
+    margin-bottom: 30px;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    background-color: darkslategray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#tableHeading{
+    background-color: darkslategrey;
+    color: whitesmoke;
+}
+table, th, td {
+    margin: 30px 100px;
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  .dev{
+      margin-right:500px;
+  }
+ 

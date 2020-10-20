@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Helpful Terms</title>
+    <link rel="stylesheet" href="HelpfulTerms.css" />
+</head>
+
+<body>
+    <div>
+        <button><a href="HelpfulTerms.html">Home</a></button>
+    </div>
+
+    <h3>Please provide your feedback.</h3>
+    <form>
+        <label id="date" for="date"><br>
+            Today's date:
+        </label>
+        <br>
+        <input type="date" id="date" name="date" required><br>
+        <label id="firstName" for="firstName"><br>
+            First name:
+        </label>
+        <br>
+        <input type="text" id="firstName" name="firstName" required><br>
+        <label for="lastName">Last name:</label><br>
+        <input type="text" id="lastName" name="lastName" required>
+        <br><br>
+        <label id="coding" for="coding">How long have you been coding?</label><br>
+        </label>
+        <select id="dropdown" name="experience">
+            <option value=""></option>
+            <option value="newbie">newbie</option>
+            <option value="some experience">some experience</option>
+            <option value="very experienced">very experienced</option>
+        </select>
+        <br>
+        <br>
+        <label>How helpful is this document? </label>
+        <br>
+        <input type="radio" name="rating" value="very helpful">Very Helpful</input>
+        <br>
+        <input type="radio" name="rating" value="somewhat helpful">Somewhat Helpful</input>
+        <br>
+        <input type="radio" name="rating" value="not helpful">Not Helpful</input>
+        <br>
+        <input type="radio" name="rating" value="I am more confused">I am more confused</input>
+        <br>
+        <br>
+        <label>How can this document be improved?</label>
+        <br>
+        <label for="comments" id="comments-label">
+            <textarea cols="50" rows="10"></textarea>
+        </label>
+        <br>
+    </form>
+    <form action="/action_page.php" method="POST">
+        <input type="submit" value="Submit">
+        </input>
+        <input type="reset">
+    </form>
+
+    <body>
+
+        </html>
